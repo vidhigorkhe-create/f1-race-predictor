@@ -5,9 +5,9 @@ import joblib
 import os
 
 # Load datasets
-circuits = pd.read_csv("data/circuits.csv")
-races = pd.read_csv("data/races.csv")
-results = pd.read_csv("data/results.csv")
+circuits = pd.read_csv("circuits.csv")
+races = pd.read_csv("races.csv")
+results = pd.read_csv("results.csv")
 
 # Select useful columns
 circuits = circuits[["circuitId", "name"]]
