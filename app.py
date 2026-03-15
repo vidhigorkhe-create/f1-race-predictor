@@ -4,9 +4,9 @@ import pandas as pd
 import plotly.express as px
 
 # Load model and data
-model = joblib.load("model/f1_model.pkl")
-encoder = joblib.load("model/encoder.pkl")
-df = joblib.load("model/data.pkl")
+model = joblib.load("f1_model.pkl")
+encoder = joblib.load("encoder.pkl")
+df = joblib.load("data.pkl")
 
 st.title("Grid to Flag: F1 Race Predictor")
 
